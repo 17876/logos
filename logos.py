@@ -378,7 +378,7 @@ def midi_pitches_to_musicxml(output_filename, output_filename_playback, n_of_not
 
                 output_file_playback.write('      <direction placement="below">\n')
                 output_file_playback.write('        <direction-type>\n')
-                output_file_playback.write('      <words>{:s}</words>\n'.format(cur_alter_for_playback_expr))
+                output_file_playback.write('      <words default-y="-115" relative-x="0">{:s}</words>\n'.format(cur_alter_for_playback_expr))
                 output_file_playback.write('        </direction-type>\n')
                 output_file_playback.write('      </direction>\n')
 
@@ -891,7 +891,7 @@ def menu5():
     while True:
         print('')
         print('┌──────────────────────────────────────┐')
-        print('│▶▶▶ Enter the nema for the JSON-File. │')
+        print('│▶▶▶ Enter the name for the JSON-File. │')
         print('└──────────────────────────────────────┘')
         print('b: Back ║ m: Main Menu ║ q: Quit')
         input_ = input('>> ')
