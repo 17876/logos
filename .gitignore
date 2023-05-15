@@ -1,11 +1,3 @@
 .idea/
-Accidentals.ttf
-*.txt
-!requirements.txt
 __pycache__/
-*.lib
-logos_v02_old.py
-*.pdf
-*.json
-*.xml
-
+.DS_Store

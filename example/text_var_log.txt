@@ -1,0 +1,18 @@
+aá:
+Note: cis', MIDI: 61.00, Duration: None, Articulation: None, Comment: a
+Note: cis'+25ct, MIDI: 61.25, Duration: None, Articulation: >, Comment: á
+
+eé:
+Note: d', MIDI: 62.00, Duration: None, Articulation: None, Comment: e
+Note: d'+50ct, MIDI: 62.50, Duration: x2, Articulation: None, Comment: é
+
+όο:
+Note: h', MIDI: 71.00, Duration: x2, Articulation: None, Comment: ό
+Note: h'+50ct, MIDI: 71.50, Duration: None, Articulation: None, Comment: ο
+
+atουtetού:
+Note: cis'+50ct, MIDI: 61.50, Duration: None, Articulation: None, Comment: a
+Note: e', MIDI: 64.00, Duration: None, Articulation: None, Comment: ου
+Note: dis', MIDI: 63.00, Duration: None, Articulation: None, Comment: e
+Note: e'+50ct, MIDI: 64.50, Duration: None, Articulation: >, Comment: ού
+

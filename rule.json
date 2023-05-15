@@ -1,0 +1,33 @@
+{
+    "a": {
+        "main_note": "cis'",
+        "pattern": [1, 1, 1, -3],
+        "units": "1/8",
+        "alternative": "á",
+        "modifier": "a"
+    },
+
+    "e": {
+        "main_note": "d'",
+        "pattern": [1, 1, -2],
+        "units": "1/4",
+        "alternative": "é",
+        "modifier": "dd"
+    },
+    "ο": {
+        "main_note": "h'",
+        "pattern": [1, 1, -2],
+        "units": "1/4",
+        "alternative": "ό",
+        "modifier": "dd"
+    },
+
+    "ου": {
+        "main_note": "e'",
+        "pattern": [1, 1, -2],
+        "units": "1/4",
+        "alternative": "ού",
+        "modifier": "a"
+    }
+
+}

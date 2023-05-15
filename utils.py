@@ -112,15 +112,15 @@ def midi_to_note(midi_):
         note_name = 'h'
 
     if octave == 0:
-        octave_name = '-gross+22vb'
+        octave_name = '-great+22vb'
     elif octave == 1:
-        octave_name = '-gross+15vb'
+        octave_name = '-great+15vb'
     elif octave == 2:
-        octave_name = '-gross+8vb'
+        octave_name = '-great+8vb'
     elif octave == 3:
-        octave_name = '-gross'
+        octave_name = '-great'
     elif octave == 4:
-        octave_name = '-klein'
+        octave_name = '-small'
     elif octave == 5:
         octave_name = '\''
     elif octave == 6:

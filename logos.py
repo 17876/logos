@@ -690,7 +690,7 @@ def menu2():
                     cur_var_names = input_.split(' ')
                     cur_pitch_lists = []
                     for i in cur_var_names:
-                        cur_pitch_lists.append(variables[i].name)
+                        cur_pitch_lists.append(variables[i].value)
                     break
                 except KeyError:
                     print('▶▶▶ Error: The variable does not exist. Try again.')
@@ -1119,7 +1119,8 @@ def logos(text_filename, rule_filename, log_filename):
         cur_word_lower = cur_word.lower()
         log_file.write(cur_word_lower + ':\n')
         # finding all letters and also á, é, í, ó, ú ... ά, έ, ί, ύ, ή, ό, ώ, ού
-        cur_letters = re.findall(r'[\w]', cur_word_lower) + re.findall(r'ού', cur_word_lower)
+        cur_letters = re.findall(r'(ου|ού|\w)', cur_word_lower)
+        print('cur_letters', cur_letters)
         # iterating throughh the letters of a word
         for cur_letter in cur_letters:
             # check if we use alternative letter with accent or no
@@ -1222,7 +1223,7 @@ def logos(text_filename, rule_filename, log_filename):
                 cur_note_transp_1_okt = cur_note_obj_output.note
 
                 print('Word:', cur_word_lower)
-                print('Letter:', cur_letter_key)
+                print('Letter:', cur_letter)
                 print('Pitch:', cur_notenname)
                 print('Letter counter:', cur_key_counter)
                 print('Number in the pattern:', cur_muster_indx + 1)
@@ -1243,5 +1244,5 @@ def logos(text_filename, rule_filename, log_filename):
 
 
 print('\033c')
-sys.stdout.write("\x1b[8;{rows};{cols}t".format(rows=40, cols=80))
+sys.stdout.write("\x1b[8;{rows};{cols}t".format(rows=40, cols=100))
 main_menu()
